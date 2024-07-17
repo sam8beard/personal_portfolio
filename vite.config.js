@@ -17,5 +17,5 @@ export default defineConfig({
     }
   },
 
-  base: "https://sam8beard.github.io/personal_portfolio/"
+  base: "./"
 })
