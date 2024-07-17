@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css'
 import NavigationBar from './components/NavigationBar.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import Home from './pages/Home.jsx'
 import './custom.scss'
 function App() {
  
@@ -17,6 +18,7 @@ function App() {
           <Routes> 
             <Route
                 path='/'
+                element={<Home/>}
             />
           </Routes>
 

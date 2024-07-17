@@ -1,7 +1,13 @@
-.navbar { 
+/* .navbar { 
     background-color: black !important;
 }
 
 .bg-body-tertiary { 
     background-color: black !important;
 }
+/*  */
+.navbar-override { 
+    background-color: grey;
+    position: fixed;
+    width: 100%;
+} 

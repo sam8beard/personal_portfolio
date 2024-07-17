@@ -1,0 +1,109 @@
+.home-parent { 
+    display: flex;
+    width: 100vw;
+}
+
+/* For testing  */
+.home-parent div {
+    /* background-color: navy;
+    border: red 2px solid;
+    height: 50rem;
+    width: 100%; */
+}
+
+.home-intro-group { 
+    display: flex;
+    flex-direction: column;
+
+}
+
+.home-intro-group { 
+    border: black 2px solid; 
+    height: 25rem;
+    width: 25rem;
+}
+
+.github-logo { 
+    width:4rem;
+    margin: 0.5rem;
+}
+.link-group { 
+    margin: 2rem;   
+}
+
+
+.cv-logo { 
+    width: 5rem;
+    margin-top: -0.8rem;
+    /* margin: 0.5rem; */
+    /* margin-bottom: -0.8; */
+}
+.codehub-photo-container { 
+    /* width: 25%;
+    height: 25%; */
+    display: flex;
+    justify-content: center;
+
+}
+
+/* .codehub-photo { 
+    width:25%;
+    height:25%;
+} */
+.carousel-photo { 
+    /* width: 50%;
+    height: 50%; */
+    /* object-fit: cover; */
+}
+.linkedin-logo { 
+    width:4rem;
+    margin: 0.5rem;
+}
+.prof-pic { 
+    width:30rem;
+    height:30rem;
+    box-shadow: 2px 2px 12px grey;
+}
+
+.container-row-1 { 
+    /* display:flex; */
+    text-align: center;
+    height: 40rem;
+    padding-top: 6.5rem;
+    vertical-align: middle;
+    padding-bottom: 5rem;
+}
+
+.container-row-3 { 
+    /* display:flex; */
+    text-align: center;
+    /* padding-top: 2rem; */
+    vertical-align: middle;
+    padding-bottom: 2rem;
+   
+}
+.container-row-2 { 
+    /* display:flex; */
+    text-align: center;
+    height: 40rem;
+    padding-top: 2rem;
+    vertical-align: middle;
+    padding-bottom: 5rem;
+}
+.greeting { 
+    font-weight: light;
+    margin: 1rem;
+}
+
+.description { 
+    font-weight: lighter;
+}
+.col { 
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    /* vertical-align: middle; */
+}
+.container-col-1  { 
+    vertical-align: middle;
+}
