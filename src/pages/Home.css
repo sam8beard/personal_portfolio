@@ -54,6 +54,8 @@
     /* width: 50%;
     height: 50%; */
     /* object-fit: cover; */
+    
+    
 }
 .linkedin-logo { 
     width:4rem;
@@ -62,7 +64,7 @@
 .prof-pic { 
     width:30rem;
     height:30rem;
-    box-shadow: 2px 2px 12px grey;
+    box-shadow: 2px 2px 12px rgb(16, 46, 46);
 }
 
 .container-row-1 { 
@@ -80,6 +82,7 @@
     /* padding-top: 2rem; */
     vertical-align: middle;
     padding-bottom: 2rem;
+    width: 100%;
    
 }
 .container-row-2 { 
@@ -91,10 +94,13 @@
     padding-bottom: 5rem;
 }
 .greeting { 
-    font-weight: light;
+    font-weight: 200;
     margin: 1rem;
+    margin-top: 2rem;
 }
-
+.greeting h1 { 
+    font-weight: 375;
+}
 .description { 
     font-weight: lighter;
 }

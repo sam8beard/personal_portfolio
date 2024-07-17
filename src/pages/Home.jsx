@@ -39,9 +39,9 @@ function Home() {
                     <Row className="container-row-1">
                         <Col className="container-col-1">
                             <div className="greeting"> 
-                                <h1 className="greeting">Hi! I'm Sammy</h1>
-                                <h4 className="description"> I'm a 4th year Computer Science major at the University of Georgia. 
-                                    Currently seeking fulltime roles in software engineering, data analytics, and other adjacent development positions. <br/>Go Dawgs! </h4>
+                                <h1 className="greeting">Hi! I'm Sammy <br/> </h1>
+                                <h4 className="description"> I'm a 4th year Computer Science major <br/> at the University of Georgia. <br/>
+                                    <br/> Seeking fulltime roles in software engineering, data analytics, and other adjacent development positions. <br/> <br/>Go Dawgs! </h4>
                                 <div className="link-group"> 
                                     <a href="https://github.com/sam8beard" target="_blank"> 
                                         <img className="github-logo"src={githubLogo}/>
@@ -49,7 +49,7 @@ function Home() {
                                     <a href="https://www.linkedin.com/in/sammy-beard-0a2980194/" target="_blank"> 
                                         <img className="linkedin-logo"src={linkedinLogo}/>
                                     </a>
-                                    <a href="../public/SAMMY_BEARD_RESUME.pdf" target="_blank" download>
+                                    <a href="/SAMMY_BEARD_RESUME.pdf" target="_blank" download>
                                         <img className="cv-logo" src={CV} alt='cv logo' />
                                     </a>
                                     
@@ -83,7 +83,7 @@ function Home() {
                             <Carousel>
                                 <Carousel.Item className="codehub-photo-container">
                                      
-                                    <img className="codehub-photo" src={CodeHubPhoto}/>
+                                    <img className="carousel-photo" src={CodeHubPhoto}/>
                                     
                                     
                                     <Carousel.Caption>
