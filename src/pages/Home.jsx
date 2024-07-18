@@ -49,7 +49,7 @@ function Home() {
                                     <a href="https://www.linkedin.com/in/sammy-beard-0a2980194/" target="_blank"> 
                                         <img className="linkedin-logo"src={linkedinLogo}/>
                                     </a>
-                                    <a href="/SAMMY_BEARD_RESUME.pdf" target="_blank" download>
+                                    <a href="/SAMMY_BEARD_RESUME.pdf/" target="_blank" download>
                                         <img className="cv-logo" src={CV} alt='cv logo' />
                                     </a>
                                     
