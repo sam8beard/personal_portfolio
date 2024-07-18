@@ -14,15 +14,15 @@ function App() {
           <NavigationBar/> 
       </div>
       
-      <Router> 
-          <Routes> 
+      
+      <Routes> 
             <Route
-                path='/personal_portfolio'
+                path='/personal_portfolio/'
                 element={<Home/>}
             />
-          </Routes>
+      </Routes>
 
-      </Router>
+      
     </div> 
       
 
