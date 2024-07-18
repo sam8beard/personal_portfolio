@@ -12,7 +12,7 @@ function NavigationBar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/personal_portfolio/">Home</Nav.Link>
-            <Nav.Link href="/personal_portfolio/contact/">Contact Me</Nav.Link>
+            {/* <Nav.Link href="/personal_portfolio/contact/">Contact Me</Nav.Link> */}
             <NavDropdown title="Projects" id="basic-nav-dropdown">
               <NavDropdown.Item href="https://devpost.com/software/globalink" target="_blank">GlobaLink</NavDropdown.Item>
               <NavDropdown.Item href="https://github.com/alexbradshaw/Odin-Fork-Bombing-Squad" target="_blank">

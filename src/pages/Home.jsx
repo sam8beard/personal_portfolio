@@ -14,6 +14,7 @@ import CodeHubPhoto from '../assets/codehub.jpg';
 import TheBoys from '../assets/the_boys.jpg';
 import GlobaLink from '../assets/globalink.jpg';
 import CV from '../assets/cv.png';
+import SeraphTeam from'../assets/seraph_team.jpg';
 // import Link from 'react-router-dom';
 
 function Home() { 
@@ -108,6 +109,16 @@ function Home() {
                                     </p> */}
                                     </Carousel.Caption>
                                 </Carousel.Item>
+                                <Carousel.Item>
+                                    <img className="carousel-photo" src={SeraphTeam}/>
+                                    <Carousel.Caption>
+                                    {/* <h3>Third slide label</h3>
+                                    <p>
+                                        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                                    </p> */}
+                                    </Carousel.Caption>
+                                </Carousel.Item>
+                                
                             </Carousel>
                         </Col>
                     </Row>
