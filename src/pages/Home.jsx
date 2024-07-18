@@ -74,7 +74,7 @@ function Home() {
                     </Row>
                     <Row className="container-row-3"> 
                         <div> 
-                            <h1> Highlights :D </h1>
+                            <h1> Some Highlights :D</h1>
                         </div>
                     </Row>
                     <Row className="container-row-3"> 
@@ -112,7 +112,7 @@ function Home() {
                         </Col>
                     </Row>
                     <Row className="container-row"> 
-                        <Col>3 of 3</Col>
+                        <Col></Col>
                     </Row>
                 </Container>
                 

@@ -1,0 +1,12 @@
+.contact-parent { 
+    height: 25rem;
+    
+}
+
+.contact-container { 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40rem;
+    padding-top: 6.5rem;
+}
