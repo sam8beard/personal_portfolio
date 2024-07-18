@@ -40,8 +40,8 @@ function Home() {
                         <Col className="container-col-1">
                             <div className="greeting"> 
                                 <h1 className="greeting">Hi! I'm Sammy <br/> </h1>
-                                <h4 className="description"> I'm a 4th year Computer Science major <br/> at the University of Georgia. <br/>
-                                    <br/> I'm seeking fulltime roles in software engineering, data analytics, and other adjacent development positions. Feel free to reach out!<br/> <br/>Go Dawgs! </h4>
+                                <h4 className="description"> I'm a fourth-year Computer Science major <br/> studying @ the University of Georgia. <br/>
+                                    <br/> I'm seeking fulltime roles in software engineering, data analytics, and other development positions. Feel free to reach out!<br/> <br/>Go Dawgs! </h4>
                                 <div className="link-group"> 
                                     <a href="https://github.com/sam8beard" target="_blank"> 
                                         <img className="github-logo"src={githubLogo}/>
