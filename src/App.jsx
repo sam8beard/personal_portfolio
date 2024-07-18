@@ -17,7 +17,7 @@ function App() {
       <Router> 
           <Routes> 
             <Route
-                path='/'
+                path='/personal_portfolio'
                 element={<Home/>}
             />
           </Routes>
