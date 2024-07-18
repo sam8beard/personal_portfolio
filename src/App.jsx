@@ -15,7 +15,6 @@ function App() {
           <NavigationBar/> 
       </div>
       
-      
       <Routes> 
             <Route
                 path='/personal_portfolio/'
